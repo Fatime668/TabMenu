@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main section {
+  padding: 120px 0;
+}
+main section .tabmenu .tab-btns {
+  border-bottom: 3px solid teal;
+}
+main section .tabmenu .tab-btns ul {
+  display: flex;
+  justify-content: space-between;
+}
+main section .tabmenu .tab-btns ul button {
+  background: whitesmoke;
+  border: 1px solid rgb(202, 202, 199);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 15px 40px;
+  margin: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: rgb(202, 202, 199);
+}
+main section .tabmenu .tabs {
+  position: relative;
+  border: 1px solid rgb(202, 202, 199);
+  padding: 95px 15px;
+}
+main section .tabmenu .tabs .tab-info {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  opacity: 0;
+  align-items: center;
+}
+main section .tabmenu .tabs .tab-info.active {
+  opacity: 1;
+}
+main section .tabmenu .tabs .tab-info .info h3 {
+  font-size: 30px;
+}
+main section .tabmenu .tabs .tab-info .info p {
+  font-size: 17px;
+  opacity: 0.6;
+}
+main section .tabmenu .tabs .tab-info .img {
+  padding: 0 29px 0 0;
+  width: 40%;
+}
+main section .tabmenu .tabs .tab-info .img img {
+  width: 100%;
+  height: 150px;
+}
+main section .tabmenu .tabs .tab-info .info {
+  width: 450px;
+}/*# sourceMappingURL=style.css.map */
